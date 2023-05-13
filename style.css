@@ -1,0 +1,355 @@
+body{
+    background-image: url("WhatsApp Image 2023-05-11 at 8.37.54 AM.jpeg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+main{
+    background-image: url("WhatsApp Image 2023-05-11 at 10.26.28 AM.jpeg");
+    /*background-repeat:no-repeat ;
+    background-size: cover;*/
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    height: 110vh;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+}
+#container{
+   display : flex;
+   justify-content: center;
+}
+textarea{
+    width: 290px;
+    height:195px;
+    margin:5.5px;
+    background-color: black;
+    color:blanchedalmond;
+    font-weight: bold;
+    border-radius: 15px;
+    padding:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#translate_from textarea:hover{
+    margin:5px;
+    border: 5px solid rgb(255, 34, 0);
+    border-radius: 15px;
+    transition: 0.2s;
+}
+#back{
+    display: block;
+    background-image:url("WhatsApp Image 2023-05-11 at 8.37.54 AM.jpeg");
+    padding-bottom: 8px;
+    
+}
+#back button{
+    background-color: rgba(49, 125, 239, 0.996);
+    color:rgb(0, 0, 0);
+    border:none;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: large;
+    width:650px;
+    padding:15px;
+    border-radius: 15px;
+}
+.icons{
+    display:flex;
+    margin-left: 10px;
+}
+
+#back button:hover{
+    border: 3px solid black;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.idea{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.789);
+    font-size: small;
+}
+.idea:hover{
+    font-size: larger;
+    color:black;
+    transition: 0.1s;
+}
+.icons select{
+    background-color: black;
+    border: none;
+    color:blanchedalmond;
+    margin-left: 10px;
+    font-weight: bold;
+    width:140px;
+    padding:2px;
+    border-radius: 5px;
+}
+.icons select:hover{
+    border: 3.5px solid rgb(255, 34, 0);
+    width:200px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+
+hr{
+    border:none;
+    height:1.5px;
+    background-color: black;
+}
+#contact_us{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#aboutus{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#faqs{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#privacy{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+@media(max-height:640px){
+    main{
+        height: 120vh;
+    }
+}
+@media(max-height:540px){
+    main{
+        height: 140vh;
+    }
+}
+
+
+#fixedheader{
+    background-color:black;
+    color:blanchedalmond;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top:0.001%;
+    padding-bottom: 0.001%;
+    padding-left:2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: oblique;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+#fixedsidebar{
+    background-color:black;
+    display:block;
+    color:rgb(8, 189, 8);
+    font-size: 200%;
+    font-weight: bolder;
+    position:fixed;
+    top:9.4rem;
+    height:100%;
+    width:150px;
+    padding-top: 6%;
+    left:0;
+}
+.sidebar{
+    display:block;
+    text-decoration: none;
+    color:rgb(150, 237, 59);
+    font-size: 50%;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.sidebar:hover{
+    background-color:rgb(150, 237, 59) ;
+    color:black;
+    padding-top: 4%; 
+    padding-bottom: 4%;
+    padding-left: 0%;
+    padding-right: 0%;
+    transition:0.2s;
+}
+#main{
+    display:flex;
+}
+#body-back{
+    position:absolute;
+    top:9.4rem;
+    left:170px;
+    overflow-y:hidden;
+}
+#logbody{
+    position:absolute;
+    top: 9.4rem;
+    overflow-y:hidden;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(180deg,black,orangered);
+    left:0;
+}
+
+#subbody{
+    position:absolute;
+    top: 9.4rem;
+    overflow-y:hidden;
+    width:100%;
+    height:100%;
+    /*background-image: linear-gradient(180deg,black,orangered);*/
+    left:0;
+}
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position:fixed;
+    background-color:blanchedalmond;
+    right:3%;
+    top:6%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    padding-left:1%;
+    padding-right: 1%;
+    border-radius: 20%;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color:black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(40deg);
+  }
+  #myLinks{
+      display:none;
+      position:fixed;
+      right:0;
+      top:8rem;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 3%;
+      padding-right: 6%;
+      background-color: black;
+      height:max-content;
+      /*border-radius: 1.5rem;
+      margin-right: 1%;*/
+  }
+  .link{
+      text-decoration:none;
+      display:block;
+      color:rgb(150, 237, 59);
+      font-size: medium;
+      font-weight: bold;
+      margin-top: 30%;
+      margin-bottom: 30%;
+  }
+  
+@media(max-width:380px){
+    #fixedsidebar{
+        width:40px;
+        font-size: large;
+    }
+    .sidebar{
+        font-size: 30%;
+    }
+    #body-back{
+        left:100px;
+    }
+}
+@media(max-width:765px){
+    #fixedsidebar{
+        font-size:100%;
+    }
+    .sidebar{
+        font-size:30%;
+    }
+
+}
+
+@media(max-width:685px){
+    textarea{
+        width:250px;
+        height:160px;
+    }
+    #back button{
+        width:560px;
+    }
+    .icons select{
+        width:150px;
+    }
+    .icons select:hover{
+        width:160px;
+    }
+}
+
+@media(max-width:595px){
+    textarea{
+        width:150px;
+        height:100px;
+    }
+    #back button{
+        width:370px;
+    }
+    .icons select{
+        width:90px;
+    }
+    .icons select:hover{
+        width:100px;
+    }
+}
+@media(max-width:405px){
+    textarea{
+        width:120px;
+        height:90px;
+    }
+    #back button{
+        width:340px;
+    }
+    .icons select{
+        width:70px;
+    }
+    .icons select:hover{
+        width:80px;
+    }
+    #fixedheader{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:370px){
+    textarea{
+        width:90px;
+        height:70px;
+    }
+    #back button{
+        width:250px;
+    }
+    .icons select{
+        width:40px;
+    }
+    .icons select:hover{
+        width:50px;
+    }
+    #fixedheader{
+        font-size: 2.2rem;
+    }
+}

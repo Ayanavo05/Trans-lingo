@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <title>Translingo</title>
+</head>
+<body>
+
+<!--main-->
+<main>
+<div id="back">
+    <center>
+    <div id="container">
+    <div id="translate_from">
+        <textarea placeholder="Enter Your Text Here..." class="fromtext"></textarea>
+        <div class="icons">
+            <i class="fa fa-volume-up idea" id="from2"></i>
+            <i class=" fas fa-copy idea" id="from1" style="margin-left: 10px;"></i>
+            <select>
+            </select>
+        </div>
+    </div>
+    <div style="background-color: black;width:1.5px">
+
+    </div>
+    <div id="translate_to">
+        <textarea readonly disabled placeholder="Display Here..." class="totext"></textarea>
+        <div class="icons">
+            <i class="fa fa-volume-up idea" id="to2"></i>
+            <i class=" fas fa-copy idea"  id="to1" style="margin-left: 10px;"></i>
+            <select>
+            </select>
+        </div>
+    </div>
+    </div>
+    <button>Translate Text</button>
+   </center>
+</div>
+<script src="country.js"></script>
+<script src="script.js"></script>
+</main>
+
+<!--header-->
+<div id="fixedheader">
+    <p>tRaNs-Lingo</p>
+    </div>
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div id="myLinks">
+      <a href="index.html" class="link"><i class="fa fa-home" style="color:white;padding-right:15px;font-size: 125%;"></i>Home</a>
+      <a href="#aboutus" class="link"><i class="fa fa-info-circle" style="color:white;padding-right:15px;font-size: 125%;"></i>About</a>
+      <a href="#privacy" class="link" ><i class="fa fa-user-secret" style="color:white;padding-right:15px;font-size: 125%;"></i>Privacy</a>
+      <a href="#faqs" class="link"><i class="fa fa-question-circle" style="color:white;padding-right:15px;font-size: 125%;"></i>FAQs</a>
+      <a href="#contact_us" class="link"><i class="fa fa-phone-square" style="color:white;padding-right:15px;font-size: 125%;"></i>Contact Us</a>
+      </div>
+      <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+        var x=document.getElementById("myLinks");
+        if(x.style.display==="block"){
+          x.style.display="none";
+        }
+        else{
+          x.style.display="block";
+        }
+      }
+      </script>      
+
+
+<!--contact-->
+<div id="contact_us">
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <p style="font-size: 200%; font-weight:400;">Contact:</p>
+    Call Us: <a href=" tel:9903242138">9903242138</a><br>
+    mail: <a href="mailto:ayan05talukdar@gmail.com">ayan05talukdar@gmail.com</a><br>
+    linkedin: <a href="https://www.linkedin.com/in/ayanavo-talukdar-9b12a6257">Ayanavo Talukdar</a><br>
+    facebook:<a href="">Ayanavo Talukdar</a>
+    <br>
+    Copying any part of this website is completely illegal.<br>@Annonymus corporation pvt.ltd.<br>
+    Thanks!! For contacting Us.
+</div>
+
+<!--Creator-->
+<div id="aboutus">
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <p style="font-size: 200%;">Creators:</p>
+    We are the student of Institute of Engineering and Management. Our group contains total six members.<b> Ayanavo Talukdar</b>, works as the backend developer in this website.<b> Arnab Chakraborty , Gracy Kumari</b> aacts as the front-end developer while <b>Shuvomoy Banerjee and Koustuv Samanta</b> works on the ui/ux designing part of the website.
+    Our another member <b>Deepranjan Saha </b>supervise all this things and also helps a lot for presenting our website. We make this website for translating language. Because,today it is necessary to know about various languages as the communication is needed for everyone. And in many cases we need to translate one language to another language but as there is no proper website on it so we are making this website rather to say a web application. We also uses some API for converting the lanhguage from one to another and a total 156 nation's languages are supported by our website.<br>
+    As the leader of our group I am very much grateful to the other team members for their effort. <b>If you faces any issue regarding using this webapp please mail us, given in contact section.</b><br><br>
+    -<b>Ayanavo Talukdar, team Leader and project co-ordinator.</b>
+</div>
+<!--FAQS-->
+<div id="faqs">
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <p style="font-size: 200%;">FAQs:</p>
+    <b>1.What is a language translator webapp ?</b><br>
+    Ans: A language translator webapp is a mobile or
+     we-based application that allows users to translate text or speech from one language to another.<br><br>
+     <b>2.How does a language translator app work ?</b> <br>
+     Ans: Most language translator apps use machine translation technology,which involvesusing algorithms to analyze and understand the grammer, vocabulary, and syntax of a language to translate it into another language.<br><br>
+     <b>3.What languages are supported by language translator apps ?</b><br>
+     Ans: The languages supported by language translator apps very depending on the apps, but many support commonly spoken languages such as English, Spanish , Chineese, Japaneese, and Arabic.<br><br>
+     <b>4.Is a language translator app accurate ?</b><br>
+     Ans: The accuracy of language translator apps can very depending on the quality of the machine transition technology used and the complexity of the text or speech being translated. Generally, language translator apps work well for basic translations, but may not always provide accurate translations for more complex or nuanced language.<br><br>
+     <b>5.Are language translator apps are secured ?</b><br>
+     Ans: Most language translator apps are secure,but it's important to be aware of the privacy policies and data collection practises of the app. Some apps may collect data on the text or speech being translated , so it's important to read the terms of service before using an app.  
+     <br><br>
+     <b>6.Can language translator apps be used in offline ?</b><br>
+     Ans: Some language translator apps offer offline translation capabilities, meaning that users can translate text or speech without an internet connection. However,these features may not be available for all languages or may require users to download language packs ahead of time.
+</div>
+<!--privacy-->
+<div id="privacy">
+    <hr>
+    <p style="font-size: 200%;">Privacy:</p>
+Thank you for using our language translator web application. We are committed to protecting your privacy and have implemented this privacy policy to inform you about how we collect, use, and protect your personal information.<br>
+
+<b>Information we collect</b><br>
+We collect the text or speech input that you enter into the language translator web application. We do not collect any personally identifiable information such as your name, email address, or location. However, we may collect anonymous usage data such as the number of translations performed and the languages selected.
+<br>
+<b>Use of information</b><br>
+We use the information we collect to provide translation services to you. We do not share your personal information with any third-party organizations or individuals. However, we may use anonymous usage data to improve our application and services.
+<br>
+<b>Storage and security</b><br>
+We store the data you input into the language translator web application for a limited period of time to provide translation services to you. We use industry-standard security measures to protect your data from unauthorized access, disclosure, or destruction.
+
+<br>
+
+<b>Changes to this policy</b><br>
+We reserve the right to update this privacy policy at any time. We will notify you of any changes by posting the updated policy on our website. By continuing to use our language translator web application after we post any changes to this policy, you accept those changes.
+<br>
+<b>Effective date</b><br>
+This privacy policy is effective as of 26th june,2026.
+</div>
+</body>
+</html>
